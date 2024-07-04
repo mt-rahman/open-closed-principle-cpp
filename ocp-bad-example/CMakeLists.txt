@@ -1,0 +1,1 @@
+add_executable(ocp-bad-example main.cpp shape.h)

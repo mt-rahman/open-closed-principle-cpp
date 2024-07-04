@@ -1,0 +1,1 @@
+add_executable(ocp-good-example main.cpp shape.h circle.h rectangle.h square.h)

@@ -1,0 +1,151 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "ocp-bad-example",
+					"jsonFile" : "directory-ocp-bad-example-Debug-daa1b6c5cbc098031277.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "ocp-bad-example",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "ocp-good-example",
+					"jsonFile" : "directory-ocp-good-example-Debug-3c901db90f411939f0b0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "ocp-good-example",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "polymorphism-function-overriding",
+					"jsonFile" : "directory-polymorphism-function-overriding-Debug-6b0c1a78030297d4d767.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "polymorphism-function-overriding",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "polymorphism-virtual-functions",
+					"jsonFile" : "directory-polymorphism-virtual-functions-Debug-2451349ec46b00788f56.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "polymorphism-virtual-functions",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "ocp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "function-overriding::@74065d284b7627271e31",
+					"jsonFile" : "target-function-overriding-Debug-9ea6640c9d793e391274.json",
+					"name" : "function-overriding",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ocp-bad-example::@b8c610dcb010343c78c7",
+					"jsonFile" : "target-ocp-bad-example-Debug-12819189ac3da0650fe1.json",
+					"name" : "ocp-bad-example",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ocp-good-example::@42e4618856ae4d01838d",
+					"jsonFile" : "target-ocp-good-example-Debug-a887c0c9c433b9d63c62.json",
+					"name" : "ocp-good-example",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "virtual-functions::@b8796c17bc86d98c2dfb",
+					"jsonFile" : "target-virtual-functions-Debug-4c941f396aebff121183.json",
+					"name" : "virtual-functions",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mtr/data-engineering-projects/past-projects/open-closed-principle-polymorphism/build",
+		"source" : "/home/mtr/data-engineering-projects/past-projects/open-closed-principle-polymorphism"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

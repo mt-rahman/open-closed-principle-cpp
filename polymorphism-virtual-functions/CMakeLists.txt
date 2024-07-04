@@ -1,0 +1,1 @@
+add_executable(virtual-functions main.cpp)
